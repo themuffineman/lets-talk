@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    height:100vh;
+    display:grid;
+    place-content: center;
+    font-family: 'Bebas Neue';
+}
+h1{
+    font-size:13em;
+    cursor:pointer;
+    line-height:0;
+}
+
+.cursor {
+    background: black;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    z-index: 999;
+    pointer-events: none;
+    left:0;
+    position: fixed;
+    border-radius: 50%;
+    transition: all .1s;
+}
+span{
+    transition: all 0.2s ease;
+}
+span:hover{
+    color: rgb(143, 127, 127);
+}
